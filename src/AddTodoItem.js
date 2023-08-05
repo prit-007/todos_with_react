@@ -34,7 +34,7 @@ export const AddTodoItem = (props) => {
     return (
         <>
             <form className='container' onSubmit={submit}>
-            <div className='text-center'>Add To Do Task</div>
+            <div className='text-center '><h2>Add To Do Task</h2></div>
                 <div className="mb-3">
                     <label htmlFor="title" className="form-label">Title</label>
                     <input type="text" value={title} onChange={(e)=>{setTitle(e.target.value)}} className="form-control" id="title" aria-describedby="emailHelp" />

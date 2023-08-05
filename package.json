@@ -11,9 +11,11 @@
     "react-scripts": "5.0.1",
     "sweetalert2": "^11.7.20",
     "sweetalert2-react-content": "^5.0.7",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "homepage": "https://github.com/prit-007/todos_with_react"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
